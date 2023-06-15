@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Data
 public class ShoppingCart implements Serializable {
 
+
     private static final long serialVersionUID = 1L;
 
     private Long id;
