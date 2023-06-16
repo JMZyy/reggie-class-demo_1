@@ -8,10 +8,6 @@ import edu.czjt.reggie.service.DishFlavorService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
-/**
- * Created by jinkun.tian on 2023/4/27
- */
 @Service
 public class DishFlavorServiceImpl extends ServiceImpl<DishFlavorMapper, DishFlavor> implements DishFlavorService {
     @Override
